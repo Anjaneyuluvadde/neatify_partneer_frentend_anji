@@ -355,7 +355,7 @@ export const calculateDutyTotals = (
 // FastAPI
 // =========================================================
 
-export async function turnOffDutyAndLogout() {
+export async function turnOffDutyAndLogout(_userId?: string) {
   try {
     // =====================================================
     // 1. TURN OFF DUTY THROUGH FASTAPI
